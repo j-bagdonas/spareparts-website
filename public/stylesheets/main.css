@@ -1,0 +1,93 @@
+h1{
+    font-family: 'Permanent Marker', cursive;
+}
+h3{
+    font-family: 'Permanent Marker', cursive;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+a {
+    color:white;
+    
+}
+
+.mainSection{
+    min-height: 80vh;
+    /* background-color: rgb(246, 255, 127); */
+    background-color: teal;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+.navbar{
+    font-family: 'Quicksand', sans-serif;
+}
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+@media (max-width: 700px){
+    h3{
+        font-size: 2.25rem;
+    }
+}
+ .landing-header {
+	z-index: 1;
+	position: relative;
+	text-align: center;
+    padding-top: 35vh;
+} 
+.customButton{
+    background-color:rgb(49, 146, 202);
+    padding: 6px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.customButton2:hover{
+    color:rgb(235, 235, 104);
+}
+
+.customButton:hover{
+    text-decoration: none;
+    color: rgb(172, 242, 158);
+    
+}
+
+.customImg{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.customImg2{
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.customImg:hover{
+  transform: scale(1.01);
+}
+
+.aboutImg{
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.aboutP{
+    font-size: 1.3rem;
+}
+.aboutList{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+    list-style-type: none;
+}
+
+
+

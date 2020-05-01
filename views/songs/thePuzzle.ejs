@@ -1,0 +1,29 @@
+<%- include ("../partials/header")%>
+    <div class="mainSection">
+      <div class="container">
+        <div class = "row text-center pt-2">
+          <div class = "col-12">
+            <h3>The Puzzle</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-12">
+            <iframe class = "customImg" style="border: 0; width: 350px; height: 442px; border-radius: 10px;" src="https://bandcamp.com/EmbeddedPlayer/track=1208191011/size=large/bgcol=333333/linkcol=4ec5ec/tracklist=false/transparent=true/" seamless><a href="http://spareparts1.bandcamp.com/track/the-puzzle">The Puzzle by spareparts</a></iframe>
+          </div>
+        </div>  
+        <div class="row mt-2">
+          <div class="col-6 text-right">
+              <a class = "customButton" href = "/songs/throughTheGlass">prev</a>
+          </div>
+          <div class="col-6">
+            <a class = "customButton" href = "/songs/iKnewYoudCall">next</a>
+          </div>
+        </div>
+          <div class="row">
+            <div class="col text-center text-light py-3">
+            <%-include ("../partials/lyrics/thePuzzleLyrics") %>
+            </div>
+          </div>
+      </div>
+    </div>
+<%- include ("../partials/footer")%>

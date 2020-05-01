@@ -1,0 +1,29 @@
+<%- include ("../partials/header")%>
+    <div class="mainSection" style = "background-color: rgb(78, 132, 163);">
+      <div class="container">
+        <div class = "row text-center pt-2">
+          <div class = "col-12">
+            <h3>Through the Glass</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-12">
+            <iframe class = "customImg" style="border: 0; width: 350px; height: 442px; border-radius: 10px; " src="https://bandcamp.com/EmbeddedPlayer/track=2729991170/size=large/bgcol=333333/linkcol=e99708/tracklist=false/transparent=true/" seamless><a href="http://spareparts1.bandcamp.com/track/through-the-glass">Through the Glass by spareparts</a></iframe>
+          </div>
+        </div>  
+        <div class="row mt-2">
+          <div class="col-6 text-right">
+              <a class = "customButton" href = "/songs/iKnewYoudCall">prev</a>
+          </div>
+          <div class="col-6">
+            <a class = "customButton" href = "/songs/thePuzzle">next</a>
+          </div>
+        </div>
+          <div class="row">
+            <div class="col text-center py-3">
+            <%-include ("../partials/lyrics/throughTheGlassLyrics") %>
+            </div>
+          </div>
+      </div>
+    </div>
+<%- include ("../partials/footer")%>
