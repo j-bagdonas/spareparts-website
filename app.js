@@ -61,6 +61,8 @@ app.get("/community", (req, res) => {
     res.render("community");
 });
 
-app.listen(3000, () => {
-    console.log("Server is functioning");
-});
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port);
